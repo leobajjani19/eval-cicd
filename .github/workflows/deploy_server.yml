@@ -1,8 +1,8 @@
 name: CD - Deploy Server (self-hosted)
 
 on:
-  workflows_run:
-    workflow : ["CI - Verification HTML"]
+  workflow_run:
+    workflows : ["CI - Verification HTML"]
     types: [completed]
 
 jobs:
